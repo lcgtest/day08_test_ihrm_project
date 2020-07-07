@@ -19,3 +19,6 @@ with open(report_name, 'wb') as f:
     runner = HTMLTestRunner_PY3.HTMLTestRunner(f,verbosity=1,title="IHRM接口测试报告", description="这是人力资源管理系统的测试报告")
     # 使用runner运行测试套件
     runner.run(suite)
+    
+    
+print('hello world')
